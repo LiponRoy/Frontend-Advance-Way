@@ -1,8 +1,9 @@
 import React from 'react';
-import { useGetUsersQuery } from '../../redux/feature/userSlice';
+import { useUserGetQuery } from '../../redux/feature/userApi';
+// import { useGetUsersQuery } from '../../redux/feature/userSlice';
 
 const Deshboard = () => {
-	const { data: dataAll = [], isFetching } = useGetUsersQuery();
+	const { data: dataAll, isFetching } = useUserGetQuery();
 	console.log(dataAll);
 	return (
 		<div>

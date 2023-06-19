@@ -6,6 +6,8 @@ import ModalTwo from './components/modalForm/ModalTwo';
 import DropSelect from './components/dropDown/DropSelect';
 import Select_modal from './components/select-role/Select_modal';
 import Deshboard from './components/select-role/Deshboard';
+import CarouselAntd from './components/carousel/CarouselAntd';
+import DeshBoardLayout from './deshBoard/DeshBoardLayout';
 
 function App() {
 	return (
@@ -17,6 +19,8 @@ function App() {
 			{/* <DropSelect></DropSelect> */}
 			{/* <Select_modal></Select_modal> */}
 			<Deshboard></Deshboard>
+			{/* <CarouselAntd></CarouselAntd> */}
+			{/* <DeshBoardLayout></DeshBoardLayout> */}
 		</>
 	);
 }

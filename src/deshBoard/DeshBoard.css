@@ -1,0 +1,10 @@
+.ant-layout {
+	height: 100vh;
+	border-radius: 10px;
+	margin: 10px;
+	background-color: green;
+}
+.ant-layout-content {
+	background-color: red;
+	margin: 10px;
+}
